@@ -1,0 +1,39 @@
+body {
+    height: 10000000000px;
+}
+
+header.col-2 {
+    display: flex;
+    padding: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #424242;
+    width: 85%;
+    height: 100vh;
+}
+
+.barreJaune {
+    position: sticky;
+    top: 0;
+    background-color: #ffc230;
+    width: 15%;
+    height: 100vh;
+    color: #ffc230;
+}
+
+main {
+    background-color: #FAF4CD;
+}
+
+main div {
+    background-color: #F5A969;
+    height: 200px;
+    margin: 15px 15px 15px 0px;
+}
+
+nav > p {
+    text-align: center;
+}
