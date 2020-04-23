@@ -1,11 +1,12 @@
-body {
-    height: 10000000000px;
-}
-
 header.col-2 {
     display: flex;
     padding: 0;
 }
+
+.row {
+    margin: 0;
+}
+
 
 nav {
     position: sticky;
@@ -15,8 +16,20 @@ nav {
     height: 100vh;
 }
 
+nav div {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+   display: block;
+}
+
 .barreJaune {
-    position: sticky;
+    position:sticky;
     top: 0;
     background-color: #ffc230;
     width: 15%;
@@ -31,9 +44,5 @@ main {
 main div {
     background-color: #F5A969;
     height: 200px;
-    margin: 15px 15px 15px 0px;
-}
-
-nav > p {
-    text-align: center;
+    margin: 15px 0 15px 0;
 }
