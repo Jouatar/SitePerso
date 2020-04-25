@@ -16,20 +16,93 @@ nav {
     height: 100vh;
 }
 
+nav p {
+    padding-top: 25px;
+    font-weight: 1000;
+    color: #ffc230;
+    text-align: center;
+    font-size: 2em;
+}
+
+
 nav div {
-    height: 70%;
+    height: 85%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 }
 
-nav a{
-   display: block;
+nav a {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
 }
 
+nav a span {
+    font-size: 1.3em;
+    padding-left: 10px;
+    font-weight: 750;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #ffc230;
+}
+
+nav a:visited {
+    color: #ffc230;
+}
+
+nav a:hover {
+    color: #F4F4CD;
+}
+
+nav img {
+    height: 30px;
+}
+
+nav a:link .puceD {
+    display: inline-block;
+}
+
+nav a:link .puceO {
+    display: none;
+}
+
+nav a:hover .puceD {
+    display: none;
+}
+
+nav a:hover .puceO {
+    display: inline-block;
+}
+
+#btCv {
+    text-decoration: none;
+    align-self: center;
+    padding: 1em 2em;
+    border-radius: 10px;
+    border-color: #ffc230;
+    background-color: #ffc230;
+    
+}
+
+#btCv:hover {
+    background-color: #FAF4CD;
+}
+
+#btCv {
+    background-color: #ffc230;
+}
+
+#btCv span {
+    color: #424242;
+}
+
+
 .barreJaune {
-    position:sticky;
+    position: sticky;
     top: 0;
     background-color: #ffc230;
     width: 15%;
@@ -41,8 +114,80 @@ main {
     background-color: #FAF4CD;
 }
 
-main div {
+main>div {
     background-color: #F5A969;
-    height: 200px;
+    height: auto;
+    padding: 0.5em 1em;
     margin: 15px 0 15px 0;
+    color: #424242;
+    border-radius: 5px;
+}
+
+main>div>h4 {
+    background-color: #424242;
+    color: #ffc230;
+    margin: -8px -16px 5px -16px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+#presentation img {
+    border-radius: 10px;
+    transform: rotate(-90deg);
+    height: 250px;
+    margin: 70px -45px;
+    border: 5px solid #ffc230;
+}
+
+#presentation .row>div {
+    display: flex;
+    flex-direction: column;
+} 
+
+.row .bande {
+    flex-basis: 1px ;
+    padding: 0;
+    background-color: #424242;
+    margin: -5px 0 -8px 0;
+}
+
+.preProjet {
+    width: 20%;
+    margin : 25px 15px;
+    border-radius: 4px;
+    background-color: #424242;
+    color: #ffc230;
+    text-decoration: none;
+    padding: 0.2em;
+}
+
+.preProjet p {
+    margin: 0.5em;
+}
+
+.preProjet h4 {
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.preProjet:link {
+    text-decoration: none;
+}
+
+.preProjet:hover {
+    color: #faf4cd;
+}
+
+.preProjet:visited {
+    color: #ffc230;
+}
+
+
+.preProjet img {
+    width: 100%;
 }
